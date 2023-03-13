@@ -58,7 +58,15 @@ body {
     color: #000000;
     text-decoration: none;
 }
-
+@media only screen and (max-width: 999px) {
+    .sec-logo {
+        float:none !important;
+    }
+    .sec-vv{
+        text-align: center;
+        display: block !important;
+    }
+}
 @media only screen and (max-width: 767px) {
     .sec-main-con {
         padding: 10px;
